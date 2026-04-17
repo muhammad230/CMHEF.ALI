@@ -205,7 +205,10 @@ body {
   .menu-bar {
     display: block;
   }
-  .hero-btn{
+  .hero-btn {
     display: none;
+  }
+  .hero h1 {
+    font-size: 30px;
   }
 }
