@@ -190,6 +190,102 @@ body {
   font-size: 14px;
 }
 
+/* Track Application Section */
+.track-application {
+  background-color: #f5f5f0;
+  background-image: radial-gradient(circle, #d4d4c8 1px, transparent 1px);
+  background-size: 28px 28px;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.application-status {
+  text-align: center;
+  width: 100%;
+  max-width: 680px;
+}
+
+.application-status h2 {
+  color: #1a5c2a;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  position: relative;
+  display: inline-block;
+}
+
+.application-status h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #1a5c2a;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.status-form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid #e0e0d8;
+  overflow: hidden;
+  margin: 32px 0 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.status-form input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 18px 20px;
+  font-size: 13px;
+  color: #444;
+  background: transparent;
+}
+
+.status-form input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.check-status-btn {
+  background-color: #1a5c2a;
+  color: #fff;
+  border: none;
+  padding: 18px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.check-status-btn:hover {
+  background-color: #154a22;
+}
+
+.info-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 10px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.info-message i {
+  color: #1a5c2a;
+  font-size: 14px;
+}
+
 @media (min-width: 768px) {
   .nav-desktop,
   .login-btn {
