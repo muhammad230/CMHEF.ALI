@@ -122,6 +122,74 @@ body {
   color: #15803d;
 }
 
+/* .................Hero Section................... */
+.hero {
+  position: relative;
+  min-height: 520px;
+  background-image:
+    linear-gradient(rgba(22, 17, 17, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/images/imagebg.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Content Container */
+.hero-content {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 40px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Heading */
+.hero h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  max-width: 560px;
+  line-height: 1.2;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Subtitle */
+.hero p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #c7cbd4;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Button */
+.hero-btn {
+  background: #15803d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid #15803d;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 170px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.hero-btn:hover {
+  background-color: #16a34a;
+}
+
+.hero-btn i {
+  font-size: 14px;
+}
+
 @media (min-width: 768px) {
   .nav-desktop,
   .login-btn {
@@ -130,12 +198,14 @@ body {
 }
 
 @media (max-width: 758px) {
-  
   .nav-desktop,
   .login-btn {
     display: none;
   }
-  .menu-bar{
-    display:block;
+  .menu-bar {
+    display: block;
+  }
+  .hero-btn{
+    display: none;
   }
 }
