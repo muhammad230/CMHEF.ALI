@@ -285,6 +285,30 @@ body {
   color: #1a5c2a;
   font-size: 14px;
 }
+.logos {
+  background-color: #1a5c2a;
+  padding: 28px 0;
+}
+
+.logo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logo-3 img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
 
 @media (min-width: 768px) {
   .nav-desktop,
