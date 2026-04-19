@@ -594,6 +594,95 @@ body {
   display: block;
 }
 
+/* ...............statistics.............. */
+.statistics {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: 
+    linear-gradient(to right, rgba(252, 248, 248, 0.2) 0%, rgba(243, 242, 242, 0.95) 35%),
+    url("/images/figure8.png");
+  background-size: 30% auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-color: #f0f0ed;
+}
+
+.container-2 {
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.statistics h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.subtitle-2 {
+  color: #666;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* CARDS LAYOUT */
+.cards-3 {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.card-in {
+  background: #fff;
+  width: 260px;
+  padding: 30px 20px;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card-in:hover {
+  transform: translateY(-5px);
+}
+
+/* NUMBER */
+.number-st {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+/* ICON */
+.icon-2nd {
+  font-size: 50px;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+.card-in h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 600;
+   font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+}
+
+.card-in p {
+  color: #777;
+  font-size: 14px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .cards {
