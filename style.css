@@ -903,6 +903,34 @@ body {
   flex-shrink: 0;
 }
 
+.footer-col h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-col ul li {
+  margin-bottom: 12px;
+  color: #cde8d4;
+  font-size: 17px;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 5px 0;
+}
+.footer-col ul li:hover {
+  color: #fff;
+}
+.closed {
+  color: #f87171;
+  font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .map-frame {
