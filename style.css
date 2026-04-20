@@ -949,6 +949,10 @@ body {
   .map-frame {
     height: 350px;
   }
+  .footer-container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
 }
 
 
