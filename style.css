@@ -930,6 +930,19 @@ body {
   color: #f87171;
   font-weight: 600;
 }
+.footer-bottom {
+  text-align: center;
+  padding: 18px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+  color: #cde8d4;
+  line-height: 1.8;
+}
+
+.dev-link {
+  color: #678372;
+  font-weight: 500;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
