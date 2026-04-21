@@ -70,6 +70,10 @@ body {
 .header {
   background: #fff;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top:0px;
+  z-index: 1000;
+
 }
 
 .header-inner {
@@ -312,7 +316,7 @@ body {
   filter: brightness(0) invert(1);
 }
 
-/* about section */
+/* ................about section */
 
 #about {
   display: flex;
